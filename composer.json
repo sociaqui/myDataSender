@@ -1,0 +1,30 @@
+{
+    "name": "sociaqui/data_sender",
+    "description": "A very simplistic Symfony 3+ Bundle that sends data from a .json file to a Google Spreadsheet",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.1.3"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sociaqui\\DataSenderBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sociaqui\\DataSenderBundle\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jarosław Sochacki",
+            "email": "sociaqui@gmail.com"
+        }
+    ]
+}
