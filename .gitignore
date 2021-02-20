@@ -17,6 +17,9 @@
 /app/config/parameters.yml
 /app/config/parameters.ini
 
+# Local environment variables
+Resources/config/local.env
+
 # Managed by Composer
 /app/bootstrap.php.cache
 /var/bootstrap.php.cache
@@ -31,3 +34,12 @@
 
 # Composer PHAR
 /composer.phar
+
+# Bundles shouldn't lock the dependencies
+composer.lock
+
+# Allow for local version of PHP Unit
+phpunit.xml
+
+# Public resources
+Resources/public/
