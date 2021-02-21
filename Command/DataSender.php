@@ -4,7 +4,9 @@
 namespace App\Sociaqui\DataSenderBundle\Command;
 
 
+use App\Sociaqui\DataSenderBundle\Helper\Archiver;
 use App\Sociaqui\DataSenderBundle\Helper\JsonDataLoader as Loader;
+use App\Sociaqui\DataSenderBundle\Helper\Sender;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
